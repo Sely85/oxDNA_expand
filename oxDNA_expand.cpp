@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
       }
 
     std::cout << " " << std::endl;
-    std::cout << "Files oxDNAconv_expand.dump has been written." << std::endl;
+    std::cout << "Files oxDNAexpanded.dump has been written." << std::endl;
     std::cout << " " << std::endl;
 
   }

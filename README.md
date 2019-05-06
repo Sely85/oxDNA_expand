@@ -1,7 +1,7 @@
 oxDNA2dump
 ==========
 
-Welcome to oxDNA_exapand code!  
+Welcome to oxDNA_expand code!  
 This code converts oxDNA[1] dump
 (obtained with LAMMPS[2]) configurations into a dump file that
 contains explicitly base, stacking and backbone sites[3]. These file
@@ -14,7 +14,7 @@ can be read by OVITO visualization software[4].
 
 BUILD (Linux)
 -------------
-g++ -lm oxDNA_exapand.cpp -o oxDNA_exapand
+g++ -lm oxDNA_expand.cpp -o oxDNA_expand
 
 
 USAGE
@@ -31,7 +31,7 @@ containes two double strand polyC placed at increasing distance
 
 ./oxDNA_example example.dump
 
-will write a file "oxDNAconv_expand.dump" in which there are three
+will write a file "oxDNAexpanded.dump" in which there are three
 times the beads of the original file. For each "original" bead, the
 following site have been created:
 - backbone site (type 7), 
